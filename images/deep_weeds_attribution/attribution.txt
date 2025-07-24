@@ -1,0 +1,5 @@
+Attribution 4.0 International
+
+Canonical URL: https://creativecommons.org/licenses/by/4.0/
+
+No changes were made to .jpg images in ./images.

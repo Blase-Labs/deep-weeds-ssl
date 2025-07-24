@@ -1,0 +1,15 @@
+services:
+  blase_dev:
+    image: deep_weeds
+    container_name: deep_weeds
+    build: .
+    runtime: nvidia
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    environment:
+      - PYTHONPATH=/workspace
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - NVIDIA_VISIBLE_DEVICES=all
+    command: sleep infinity
+    
